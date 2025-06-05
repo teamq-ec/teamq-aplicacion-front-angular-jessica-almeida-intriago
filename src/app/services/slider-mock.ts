@@ -30,6 +30,6 @@ export class SliderMock {
       text: 'Haz que tus aplicaciones se vean bien en cualquier dispositivo.',
       buttonText: 'Más Info',
       buttonAction: () => alert('Clicked Más Info'),
-    },
+    }, 
   ]);
 }
