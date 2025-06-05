@@ -4,9 +4,9 @@ import { Component } from '@angular/core';
 @Component({
   selector: 'app-cajas',
   imports: [CommonModule],
-  templateUrl: './cajas.html',
-  styleUrl: './cajas.css'
+  templateUrl: './cajas.component.html',
+  styleUrl: './cajas.component.css'
 })
-export class Cajas {
+export class CajasComponent {
   cajas = Array.from({ length: 12 }, (_, i) => i + 1);
 }

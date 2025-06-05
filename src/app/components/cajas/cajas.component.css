@@ -6,13 +6,13 @@
 }
 
 .caja {
-    background-color: #2196f3;
+    background-color: #1dbc72;
     color: #fff;
     padding: 20px;
     border-radius: 8px;
     text-align: center;
     font-weight: bold;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.15);
+    box-shadow: 0 2px 5px #288358;
     transition: transform 0.2s ease;
 }
 

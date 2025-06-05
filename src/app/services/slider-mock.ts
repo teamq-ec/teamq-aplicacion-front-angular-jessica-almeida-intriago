@@ -14,22 +14,22 @@ export interface Slide {
 export class SliderMock {
   slides = signal<Slide[]>([
     {
-      headline: 'Bienvenido a Angular 20',
-      text: 'Construye interfaces modernas y rápidas con standalone components.',
+      headline: 'Lorem Ipsun 1.',
+      text: 'Sunt anim mollit velit incididunt reprehenderit consectetur cupidatat labore. Tempor Lorem et est aliquip excepteur id cupidatat ut cupidatat officia in sint. Magna aliqua mollit qui do aliqua minim aliquip fugiat ut magna Lorem enim. In labore consectetur duis aute in reprehenderit esse aliquip ex ut nisi.',
       buttonText: 'Aprender Más',
       buttonAction: () => alert('Clicked Aprender Más'),
     },
     {
-      headline: 'Componentes Dinámicos',
-      text: 'Carga y crea componentes basados en datos desde servicios.',
-      buttonText: 'Ver Ejemplo',
-      buttonAction: () => alert('Clicked Ver Ejemplo'),
+      headline: 'Lorem Ipsun 2.',
+      text: 'Sunt anim mollit velit incididunt reprehenderit consectetur cupidatat labore. Tempor Lorem et est aliquip excepteur id cupidatat ut cupidatat officia in sint. Magna aliqua mollit qui do aliqua minim aliquip fugiat ut magna Lorem enim. In labore consectetur duis aute in reprehenderit esse aliquip ex ut nisi.',
+      buttonText: 'Aprender Más',
+      buttonAction: () => alert('Clicked Aprender Más'),
     },
     {
-      headline: 'Responsive y Animaciones',
-      text: 'Haz que tus aplicaciones se vean bien en cualquier dispositivo.',
-      buttonText: 'Más Info',
-      buttonAction: () => alert('Clicked Más Info'),
-    }, 
+      headline: 'Lorem Ipsun 3.',
+      text: 'Sunt anim mollit velit incididunt reprehenderit consectetur cupidatat labore. Tempor Lorem et est aliquip excepteur id cupidatat ut cupidatat officia in sint. Magna aliqua mollit qui do aliqua minim aliquip fugiat ut magna Lorem enim. In labore consectetur duis aute in reprehenderit esse aliquip ex ut nisi.',
+      buttonText: 'Aprender Más',
+      buttonAction: () => alert('Clicked Aprender Más'),
+    },
   ]);
 }
