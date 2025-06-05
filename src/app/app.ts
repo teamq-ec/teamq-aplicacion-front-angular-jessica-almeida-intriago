@@ -1,10 +1,10 @@
 import { Component } from '@angular/core';
-import { Cajas } from './components/cajas/cajas';
-import { Notice } from './components/notice/notice';
-import { Slider } from './components/slider/slider';
+import { CajasComponent } from './components/cajas/cajas.component';
+import { NoticeComponent } from './components/notice/notice.component';
+import { SliderComponent } from './components/slider/slider.component';
 @Component({
   selector: 'app-root',
-  imports: [Cajas,Notice,Slider],
+  imports: [CajasComponent,NoticeComponent,SliderComponent],
   templateUrl: './app.html',
   styleUrl: './app.css'
 })

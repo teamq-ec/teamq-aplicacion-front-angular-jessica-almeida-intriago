@@ -4,10 +4,10 @@ import { Component } from '@angular/core';
 @Component({
   selector: 'app-notice',
   imports: [CommonModule],
-  templateUrl: './notice.html',
-  styleUrl: './notice.css',
+  templateUrl: './notice.component.html',
+  styleUrl: './notice.component.css',
 })
-export class Notice {
+export class NoticeComponent {
   botones = [
     { texto: 'Noticias Locales' },
     { texto: 'Noticias Internacionales' },

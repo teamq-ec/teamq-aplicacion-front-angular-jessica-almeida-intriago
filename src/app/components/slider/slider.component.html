@@ -1,0 +1,18 @@
+<div class="slider-container">
+    <div class="slides-wrapper">
+        @for(item of slides; track $index; let i = $index){
+            <div class="slide" [class.active]="i === currentIndex()">
+                @if(i === currentIndex()){
+
+                <div style="padding: 20px;">
+
+                    <h2>{{ item.headline }}</h2>
+                    <p>{{ item.text }}</p>
+
+                    <button (click)="item.buttonAction()">{{ item.buttonText }}</button>
+                </div>
+                }
+            </div>
+        }
+    </div>
+</div>
