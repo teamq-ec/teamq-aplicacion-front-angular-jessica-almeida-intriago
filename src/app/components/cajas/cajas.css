@@ -1,0 +1,21 @@
+.grid {
+    display: grid;
+    gap: 1rem;
+    padding: 1rem;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+}
+
+.caja {
+    background-color: #2196f3;
+    color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    text-align: center;
+    font-weight: bold;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.15);
+    transition: transform 0.2s ease;
+}
+
+.caja:hover {
+    transform: scale(1.03);
+}

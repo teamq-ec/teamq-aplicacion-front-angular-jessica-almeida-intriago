@@ -1,0 +1,13 @@
+<div class="slider-container">
+    <button class="nav-btn prev" (click)="prev()">‹</button>
+
+    <div class="slides-wrapper">
+        <div class="slide" *ngFor="let slide of slides; let i = index" [class.active]="i === currentIndex()">
+            <h2>{{ slide.headline }}</h2>
+            <p>{{ slide.text }}</p>
+            <button (click)="slide.buttonAction()">{{ slide.buttonText }}</button>
+        </div>
+    </div>
+
+    <button class="nav-btn next" (click)="next()">›</button>
+</div>
